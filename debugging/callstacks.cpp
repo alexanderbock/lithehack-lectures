@@ -6,9 +6,9 @@ int* t = nullptr;
 int a(int f) {
     ++count;
     const int i = count % 2 ? 0 : a(f + 1);
-    if (count == 7) {
-        *t = f;
-    }
+    //if (count == 7) {
+    //    *t = f;
+    //}
     return i + f;
 }
 
